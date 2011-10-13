@@ -3,8 +3,8 @@
     pyCEO
     ----------------------------------------------
     
-    Create management scripts for your applications
-    (like `manage.py runserver`).
+    Create management scripts for your applications so you can do
+    things like `python manage.py runserver`.
 
     Originally a part of the Shake web framework. 
     
