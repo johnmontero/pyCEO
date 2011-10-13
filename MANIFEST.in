@@ -1,0 +1,5 @@
+include *.txt *.py
+recursive-include pyceo *
+recursive-include examples *
+recursive-include docs *
+global-exclude shake *.pyc *.pyo
