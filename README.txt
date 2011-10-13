@@ -2,8 +2,8 @@
 pyCEO
 ================
 
-Create management scripts for your applications
-(like `manage.py runserver`).
+Create management scripts for your applications so you can do things like
+`python manage.py runserver`.
 
 Features:
 * Support position based and named arguments.
@@ -46,7 +46,9 @@ Example:
         manager.run(default='runserver')
 
 
-See examples/manage.py for a live example.
+Go to examples/ and run
+    python manage.py help
+to see the result.
 
 
 :Copyright © 2010-2011 by Lúcuma labs (http://lucumalabs.com).
