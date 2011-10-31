@@ -172,15 +172,15 @@ class Manager(object):
             shelp.append(prefix + '\n\n')
         
         shelp.extend([
-            '= USAGE ', '=' * 52, '\n',
+            ' Usage:','\n',
             '  %s <action> [<options>]' % prog, '\n',
             '  %s %s' % (prog, HELP_COMMANDS[0]), '\n',
             '\n',
-            '= ACTIONS ', '=' * 50, '\n',
+            ' Actions:',
             ])
         
         for name, command in self.commands.items():
-            shelp.append('\n%s %s %s\n' % (
+            shelp.append('\n    %s %s %s\n' % (
                 ' ' if name != default else '*',
                 name, command.description))
         

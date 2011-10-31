@@ -114,7 +114,7 @@ def test_no_command():
     
     sys.argv = ['manage.py']
     manager.run()
-    assert '= USAGE =' in sys.stdout.getvalue()
+    assert ' Usage:' in sys.stdout.getvalue()
     restore_stdout()
 
 
